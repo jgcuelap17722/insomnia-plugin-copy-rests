@@ -1,0 +1,37 @@
+{
+  "name": "insomnia-plugin-copy-rests",
+  "version": "1.0.3",
+  "private": false,
+  "author": "jgcuelap",
+  "main": "src/index.js",
+  "insomnia": {
+    "name": "copy-rests",
+    "displayName": "Copy Response to Typescript",
+    "description": "Copy response to TypeScript types",
+    "publisher": {
+      "name": "Jose Cuela",
+      "icon": "https://avatars.githubusercontent.com/u/30608715?s=400&u=6d12611e9688be4d552667dd22d4bc69b1e5cddc&v=4"
+    },
+    "applications": {
+      "designer": "*",
+      "core": "*",
+      "cli": "*"
+    },
+    "images": {
+      "icon": "./assets/icon.png"
+    }
+  },
+  "scripts": {},
+  "license": "MIT",
+  "keywords": [
+    "insomnia",
+    "insomnia-plugin",
+    "typescript",
+    "interface typescript",
+    "copy interface",
+    "interface typescript"
+  ],
+  "dependencies": {
+    "quicktype-core": "^6.1.0"
+  }
+}
